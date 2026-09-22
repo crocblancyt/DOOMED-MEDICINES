@@ -1,0 +1,18 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"doomedextras:ibuprofene_intermediate_pharma"
+        },
+        {
+            "item":"minecraft:paper"
+        },
+        {
+            "item":"minecraft:paper"
+        }
+    ],
+    "result": {
+        "item": "doomedextras:potassium_iodide_tablet",
+        "count": 1
+    }
+}

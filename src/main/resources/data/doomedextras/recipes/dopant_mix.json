@@ -1,0 +1,21 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "item":"minecraft:paper"
+        },
+        {
+            "item":"doomedextras:ground_coffee"
+        },
+        {
+            "item":"doomedmatu:raw_opium"
+        },
+        {
+            "item":"doomedmatu:feverbell_powder"
+        }
+    ],
+    "result": {
+        "item": "doomedextras:dopantmix",
+        "count": 1
+    }
+}

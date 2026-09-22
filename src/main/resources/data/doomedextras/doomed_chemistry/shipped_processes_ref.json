@@ -1,0 +1,1334 @@
+{
+  "recipes": [
+    {
+      "machine": "DRYING_OVEN",
+      "input_items": [
+        {
+          "item": "doomedmatu:poppy_latex"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:raw_opium"
+        }
+      ],
+      "fe": 400,
+      "ticks": 120
+    },
+    {
+      "machine": "DRYING_OVEN",
+      "input_items": [
+        {
+          "item": "doomedmatu:morphine_base"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:morphine_base_dry"
+        }
+      ],
+      "fe": 500,
+      "ticks": 140
+    },
+    {
+      "machine": "DRYING_OVEN",
+      "input_items": [
+        {
+          "item": "doomedmatu:heroin_crude"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:heroin_dry"
+        }
+      ],
+      "fe": 500,
+      "ticks": 140
+    },
+    {
+      "machine": "DRYING_OVEN",
+      "input_items": [
+        {
+          "item": "doomedmatu:fentanyl_intermediate_pure"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:fentanyl_precursor_pure"
+        }
+      ],
+      "fe": 2000,
+      "ticks": 200
+    },
+    {
+      "machine": "DRYING_OVEN",
+      "input_items": [
+        {
+          "item": "doomedmatu:naloxone_intermediate_pure"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:naloxone_precursor_pure"
+        }
+      ],
+      "fe": 1800,
+      "ticks": 180
+    },
+    {
+      "machine": "KILN",
+      "input_items": [
+        {
+          "item": "doomedmatu:reagent_base"
+        },
+        {
+          "item": "doomedmatu:reagent_acid"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:fentanyl_intermediate_crude"
+        }
+      ],
+      "fe": 3000,
+      "ticks": 240,
+      "hazards": {
+        "fume": 1.0,
+        "corrosive": 2
+      }
+    },
+    {
+      "machine": "KILN",
+      "input_items": [
+        {
+          "item": "doomedmatu:limestone"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:quicklime"
+        }
+      ],
+      "fe": 2400,
+      "ticks": 200
+    },
+    {
+      "machine": "KILN",
+      "input_items": [
+        {
+          "item": "doomedmatu:sulfur_lump"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:roasted_sulfur"
+        }
+      ],
+      "fe": 2000,
+      "ticks": 180,
+      "hazards": {
+        "fume": 3.0
+      }
+    },
+    {
+      "machine": "KILN",
+      "input_items": [
+        {
+          "item": "doomedmatu:roasted_sulfur"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:sulfur_trioxide"
+        }
+      ],
+      "fe": 2600,
+      "ticks": 220,
+      "hazards": {
+        "fume": 3.0,
+        "corrosive": 2
+      }
+    },
+    {
+      "machine": "KILN",
+      "input_items": [
+        {
+          "item": "doomedmatu:raw_catalyst_ore"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:catalyst_clinker"
+        }
+      ],
+      "fe": 4000,
+      "ticks": 300
+    },
+    {
+      "machine": "KILN",
+      "input_items": [
+        {
+          "item": "doomedmatu:refined_salt"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:electrolyte_salts"
+        }
+      ],
+      "fe": 400,
+      "ticks": 80
+    },
+    {
+      "machine": "KILN",
+      "input_items": [
+        {
+          "item": "minecraft:bone_meal"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:mineral_supplement"
+        }
+      ],
+      "fe": 400,
+      "ticks": 80
+    },
+    {
+      "machine": "KILN",
+      "input_items": [
+        {
+          "item": "minecraft:charcoal",
+          "count": 2
+        },
+        {
+          "item": "doomedmatu:reagent_base"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:activated_carbon_unwashed",
+          "count": 2
+        }
+      ],
+      "fe": 1600,
+      "ticks": 220,
+      "hazards": {
+        "fume": 2.0,
+        "corrosive": 2
+      }
+    },
+    {
+      "machine": "SLAKING_VAT",
+      "input_items": [
+        {
+          "item": "doomedmatu:reagent_base"
+        }
+      ],
+      "input_fluid": "doomedmatu:opium_solution",
+      "input_mb": 500,
+      "output_fluid": "doomedmatu:morphine_slurry",
+      "output_mb": 500,
+      "purity": 70,
+      "fe": 2200,
+      "ticks": 260,
+      "hazards": {
+        "fume": 2.0,
+        "corrosive": 2
+      }
+    },
+    {
+      "machine": "SLAKING_VAT",
+      "input_items": [
+        {
+          "item": "doomedmatu:quicklime"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 500,
+      "output_items": [
+        {
+          "item": "doomedmatu:reagent_base",
+          "count": 2
+        }
+      ],
+      "fe": 800,
+      "ticks": 120,
+      "hazards": {
+        "fume": 1.5,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "SLAKING_VAT",
+      "input_items": [
+        {
+          "item": "doomedmatu:sulfur_trioxide"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 500,
+      "output_fluid": "doomedmatu:acid_liquor",
+      "output_mb": 300,
+      "fe": 900,
+      "ticks": 160,
+      "hazards": {
+        "fume": 3.0,
+        "corrosive": 2
+      }
+    },
+    {
+      "machine": "FERMENTER",
+      "input_items": [
+        {
+          "item": "minecraft:rotten_flesh"
+        },
+        {
+          "item": "minecraft:brown_mushroom"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 500,
+      "output_items": [
+        {
+          "item": "doomedmatu:antibiotic_culture"
+        }
+      ],
+      "fe": 1800,
+      "ticks": 400,
+      "hazards": {
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "FERMENTER",
+      "input_items": [
+        {
+          "item": "doomedmatu:antibiotic_culture"
+        }
+      ],
+      "input_fluid": "doomedmatu:distilled_water",
+      "input_mb": 500,
+      "output_fluid": "doomedmatu:ferment_broth",
+      "output_mb": 500,
+      "fe": 2500,
+      "ticks": 400,
+      "hazards": {
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "FERMENTER",
+      "input_items": [
+        {
+          "item": "minecraft:sugar",
+          "count": 2
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 1000,
+      "output_fluid": "doomedmatu:mash",
+      "output_mb": 1000,
+      "fe": 600,
+      "ticks": 400,
+      "hazards": {
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "FERMENTER",
+      "input_items": [
+        {
+          "item": "minecraft:wheat",
+          "count": 3
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 1000,
+      "output_fluid": "doomedmatu:mash",
+      "output_mb": 800,
+      "fe": 600,
+      "ticks": 600,
+      "hazards": {
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "FERMENTER",
+      "input_items": [
+        {
+          "item": "minecraft:apple",
+          "count": 3
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 1000,
+      "output_fluid": "doomedmatu:mash",
+      "output_mb": 700,
+      "fe": 600,
+      "ticks": 560,
+      "hazards": {
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "FERMENTER",
+      "input_items": [
+        {
+          "item": "minecraft:sweet_berries",
+          "count": 4
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 1000,
+      "output_fluid": "doomedmatu:mash",
+      "output_mb": 750,
+      "fe": 600,
+      "ticks": 520,
+      "hazards": {
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "FERMENTER",
+      "input_fluid": "doomedmatu:ethanol",
+      "input_fluid_tag": "doomedmatu:industrial_ethanol",
+      "input_mb": 300,
+      "output_fluid": "doomedmatu:vinegar",
+      "output_mb": 300,
+      "fe": 500,
+      "ticks": 480,
+      "external_fluid_quality": 70,
+      "external_fluid_chemical": 15,
+      "hazards": {
+        "sealed": false
+      }
+    },
+    {
+      "machine": "STILL",
+      "input_items": [
+        {
+          "item": "doomedmatu:ceftriaxone_mash"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:cephalosporin_crude"
+        }
+      ],
+      "fe": 3000,
+      "ticks": 320,
+      "hazards": {
+        "fume": 2.5,
+        "flammable": true,
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "STILL",
+      "input_fluid": "doomedmatu:mash",
+      "input_mb": 1000,
+      "output_fluid": "doomedmatu:ethanol",
+      "output_mb": 300,
+      "fe": 1600,
+      "ticks": 240,
+      "hazards": {
+        "fume": 2.5,
+        "flammable": true,
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "STILL",
+      "input_fluid": "minecraft:water",
+      "input_mb": 1000,
+      "output_fluid": "doomedmatu:distilled_water",
+      "output_mb": 900,
+      "fe": 700,
+      "ticks": 140,
+      "hazards": {
+        "fume": 0.25,
+        "flammable": false,
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "FILTER_PRESS",
+      "input_fluid": "doomedmatu:morphine_slurry",
+      "input_mb": 500,
+      "output_items": [
+        {
+          "item": "doomedmatu:crude_morphine"
+        }
+      ],
+      "output_fluid": "doomedmatu:waste_filtrate",
+      "output_mb": 400,
+      "fe": 700,
+      "ticks": 180,
+      "hazards": {
+        "fume": 0.5
+      }
+    },
+    {
+      "machine": "FILTER_PRESS",
+      "input_fluid": "doomedmatu:ferment_broth",
+      "input_mb": 500,
+      "output_items": [
+        {
+          "item": "doomedmatu:ceftriaxone_mash"
+        }
+      ],
+      "output_fluid": "doomedmatu:waste_filtrate",
+      "output_mb": 400,
+      "fe": 1500,
+      "ticks": 220,
+      "hazards": {
+        "fume": 0.5
+      }
+    },
+    {
+      "machine": "FILTER_PRESS",
+      "input_items": [
+        {
+          "item": "doomedmatu:activated_carbon_unwashed",
+          "count": 2
+        }
+      ],
+      "input_fluid": "doomedmatu:distilled_water",
+      "input_mb": 500,
+      "output_items": [
+        {
+          "item": "doomedmatu:activatedcharcoal",
+          "count": 2
+        }
+      ],
+      "output_fluid": "doomedmatu:waste_filtrate",
+      "output_mb": 350,
+      "fe": 900,
+      "ticks": 180,
+      "hazards": {
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "minecraft:glow_berries",
+          "count": 4
+        },
+        {
+          "item": "doomedmatu:reagent_acetyl"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:antiviral"
+        }
+      ],
+      "fe": 3200,
+      "ticks": 360
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:morphine_base_dry"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:morphine_solid"
+        }
+      ],
+      "fe": 2600,
+      "ticks": 300,
+      "hazards": {
+        "fume": 1.5,
+        "flammable": true
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:crude_morphine"
+        },
+        {
+          "item": "doomedmatu:reagent_acid"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:morphine_base"
+        }
+      ],
+      "fe": 1800,
+      "ticks": 240,
+      "hazards": {
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:morphine_solid"
+        },
+        {
+          "item": "doomedmatu:reagent_acetyl"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:heroin_crude"
+        }
+      ],
+      "fe": 2000,
+      "ticks": 260,
+      "hazards": {
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:heroin_dry"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:heroin_pure"
+        }
+      ],
+      "fe": 2600,
+      "ticks": 300,
+      "hazards": {
+        "fume": 1.5,
+        "flammable": true
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:catalyst_clinker"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:reagent_catalyst"
+        }
+      ],
+      "fe": 2500,
+      "ticks": 260,
+      "hazards": {
+        "fume": 1.5,
+        "flammable": true
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:salt",
+          "count": 2
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:refined_salt",
+          "count": 2
+        }
+      ],
+      "fe": 600,
+      "ticks": 100
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:fentanyl_intermediate_crude"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:fentanyl_intermediate_pure"
+        }
+      ],
+      "fe": 3500,
+      "ticks": 300,
+      "hazards": {
+        "fume": 1.5,
+        "flammable": true
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:raw_opium"
+        },
+        {
+          "item": "doomedmatu:reagent_acid"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:naloxone_intermediate_crude"
+        }
+      ],
+      "fe": 3000,
+      "ticks": 260,
+      "hazards": {
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:naloxone_intermediate_crude"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:naloxone_intermediate_pure"
+        }
+      ],
+      "fe": 3200,
+      "ticks": 280,
+      "hazards": {
+        "fume": 1.5,
+        "flammable": true
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:cephalosporin_crude"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:cephalosporin_pure"
+        }
+      ],
+      "fe": 3200,
+      "ticks": 300,
+      "hazards": {
+        "fume": 1.5,
+        "flammable": true
+      }
+    },
+    {
+      "machine": "RECRYSTALLIZER",
+      "input_items": [
+        {
+          "item": "doomedmatu:mineral_supplement"
+        },
+        {
+          "item": "doomedmatu:sodium_lactate"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:ringers_salts"
+        }
+      ],
+      "fe": 800,
+      "ticks": 120
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:electrolyte_salts"
+        },
+        {
+          "item": "doomedmatu:ringers_salts"
+        }
+      ],
+      "input_fluid": "doomedmatu:distilled_water",
+      "input_mb": 900,
+      "output_fluid": "doomedmatu:ringersolution",
+      "output_mb": 1000,
+      "purity": 95,
+      "fe": 600,
+      "ticks": 120
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:electrolyte_salts"
+        },
+        {
+          "item": "doomedmatu:ringers_salts"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 900,
+      "output_fluid": "doomedmatu:ringersolution",
+      "output_mb": 1000,
+      "purity": 70,
+      "fe": 600,
+      "ticks": 120
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:refined_salt"
+        }
+      ],
+      "input_fluid": "doomedmatu:distilled_water",
+      "input_mb": 900,
+      "output_fluid": "doomedmatu:saline",
+      "output_mb": 1000,
+      "purity": 95,
+      "fe": 500,
+      "ticks": 100
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:refined_salt"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 900,
+      "output_fluid": "doomedmatu:saline",
+      "output_mb": 1000,
+      "purity": 70,
+      "fe": 500,
+      "ticks": 100
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "minecraft:dried_kelp"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 1000,
+      "output_items": [
+        {
+          "item": "doomedmatu:salt",
+          "count": 2
+        }
+      ],
+      "fe": 800,
+      "ticks": 120
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:raw_opium"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 500,
+      "output_fluid": "doomedmatu:opium_solution",
+      "output_mb": 500,
+      "purity": 60,
+      "fe": 1200,
+      "ticks": 160
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:morphine_solid"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 200,
+      "output_fluid": "doomedmatu:morphine",
+      "output_mb": 200,
+      "purity": 92,
+      "fe": 800,
+      "ticks": 120
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:morphine_base_dry"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 200,
+      "output_fluid": "doomedmatu:morphine",
+      "output_mb": 200,
+      "purity": 68,
+      "fe": 800,
+      "ticks": 120
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:heroin_pure"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 200,
+      "output_fluid": "doomedmatu:heroin",
+      "output_mb": 200,
+      "purity": 90,
+      "fe": 800,
+      "ticks": 120
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:heroin_dry"
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 200,
+      "output_fluid": "doomedmatu:heroin",
+      "output_mb": 200,
+      "purity": 48,
+      "fe": 700,
+      "ticks": 110
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_fluid": "doomedmatu:opium_solution",
+      "input_mb": 500,
+      "output_fluid": "doomedmatu:opium",
+      "output_mb": 100,
+      "purity": 55,
+      "fe": 900,
+      "ticks": 140
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_fluid": "doomedmatu:ethanol",
+      "input_fluid_tag": "doomedmatu:industrial_ethanol",
+      "input_mb": 300,
+      "output_items": [
+        {
+          "item": "doomedmatu:reagent_solvent",
+          "count": 2
+        }
+      ],
+      "fe": 700,
+      "ticks": 160,
+      "external_fluid_quality": 70,
+      "external_fluid_chemical": 15,
+      "hazards": {
+        "fume": 3.0,
+        "flammable": true
+      }
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_fluid": "doomedmatu:acid_liquor",
+      "input_fluid_tag": "forge:sulfuric_acid",
+      "input_mb": 300,
+      "output_items": [
+        {
+          "item": "doomedmatu:reagent_acid",
+          "count": 2
+        }
+      ],
+      "fe": 1000,
+      "ticks": 200,
+      "external_fluid_quality": 70,
+      "external_fluid_chemical": 20,
+      "hazards": {
+        "fume": 2.0,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_fluid": "doomedmatu:vinegar",
+      "input_mb": 300,
+      "output_items": [
+        {
+          "item": "doomedmatu:reagent_acid"
+        }
+      ],
+      "fe": 900,
+      "ticks": 220,
+      "hazards": {
+        "fume": 2.0
+      }
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_fluid": "doomedmatu:waste_filtrate",
+      "input_mb": 500,
+      "output_items": [
+        {
+          "item": "doomedmatu:reagent_base"
+        }
+      ],
+      "fe": 900,
+      "ticks": 220,
+      "hazards": {
+        "fume": 1.5
+      }
+    },
+    {
+      "machine": "EVAPORATOR",
+      "input_items": [
+        {
+          "item": "minecraft:dried_kelp_block",
+          "count": 2
+        },
+        {
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
+      ],
+      "input_fluid": "doomedmatu:ethanol",
+      "input_fluid_tag": "doomedmatu:industrial_ethanol",
+      "input_mb": 300,
+      "output_items": [
+        {
+          "item": "doomedmatu:iodine",
+          "count": 4
+        }
+      ],
+      "fe": 1800,
+      "ticks": 300,
+      "external_fluid_quality": 70,
+      "external_fluid_chemical": 15,
+      "hazards": {
+        "fume": 2.5,
+        "flammable": true
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:fentanyl_precursor_pure"
+        },
+        {
+          "item": "doomedmatu:reagent_catalyst"
+        }
+      ],
+      "output_drug": "FENTANYL",
+      "output_mb": 100,
+      "purity": 92,
+      "fe": 7000,
+      "ticks": 640,
+      "hazards": {
+        "fume": 3.0,
+        "flammable": true,
+        "pressure": 2,
+        "sealed": true,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:naloxone_precursor_pure"
+        },
+        {
+          "item": "doomedmatu:reagent_catalyst"
+        }
+      ],
+      "output_drug": "NALOXONE",
+      "output_mb": 100,
+      "purity": 94,
+      "fe": 6000,
+      "ticks": 560,
+      "hazards": {
+        "fume": 2.5,
+        "flammable": true,
+        "pressure": 2,
+        "sealed": true,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:cephalosporin_pure"
+        },
+        {
+          "item": "doomedmatu:reagent_acetyl"
+        }
+      ],
+      "output_drug": "CEFTRIAXONE",
+      "output_mb": 100,
+      "purity": 96,
+      "fe": 5500,
+      "ticks": 600,
+      "hazards": {
+        "fume": 2.0,
+        "flammable": true,
+        "pressure": 1,
+        "sealed": true,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:raw_opium"
+        }
+      ],
+      "output_drug": "OPIUM",
+      "output_mb": 100,
+      "purity": 80,
+      "fe": 1000,
+      "ticks": 160,
+      "hazards": {
+        "fume": 1.5,
+        "flammable": false,
+        "pressure": 1,
+        "sealed": true
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:reagent_base"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "input_drug": "OPIUM",
+      "input_mb": 100,
+      "output_drug": "MORPHINE",
+      "output_mb": 100,
+      "purity": 65,
+      "fe": 2500,
+      "ticks": 300,
+      "hazards": {
+        "fume": 3.0,
+        "flammable": true,
+        "pressure": 1,
+        "sealed": true,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:reagent_acetyl"
+        }
+      ],
+      "input_drug": "MORPHINE",
+      "input_mb": 100,
+      "output_drug": "HEROIN",
+      "output_mb": 100,
+      "purity": 55,
+      "fe": 2000,
+      "ticks": 240,
+      "hazards": {
+        "fume": 2.5,
+        "flammable": true,
+        "pressure": 1,
+        "sealed": true,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:fentanyl_precursor"
+        },
+        {
+          "item": "doomedmatu:reagent_catalyst"
+        }
+      ],
+      "output_drug": "FENTANYL",
+      "output_mb": 100,
+      "purity": 70,
+      "fe": 6000,
+      "ticks": 600,
+      "hazards": {
+        "fume": 3.0,
+        "flammable": true,
+        "pressure": 2,
+        "sealed": true,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:naloxone_precursor"
+        },
+        {
+          "item": "doomedmatu:reagent_catalyst"
+        }
+      ],
+      "output_drug": "NALOXONE",
+      "output_mb": 100,
+      "purity": 70,
+      "fe": 5000,
+      "ticks": 500,
+      "hazards": {
+        "fume": 2.5,
+        "flammable": true,
+        "pressure": 2,
+        "sealed": true,
+        "corrosive": 1
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:antibiotic_culture"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_drug": "CEFTRIAXONE",
+      "output_mb": 100,
+      "purity": 75,
+      "fe": 5000,
+      "ticks": 600,
+      "hazards": {
+        "fume": 2.0,
+        "flammable": true,
+        "pressure": 1,
+        "sealed": true
+      }
+    },
+    {
+      "machine": "REACTOR",
+      "input_items": [
+        {
+          "item": "doomedmatu:clottingmush",
+          "count": 2
+        },
+        {
+          "item": "doomedmatu:mineral_supplement"
+        },
+        {
+          "item": "doomedmatu:reagent_solvent"
+        }
+      ],
+      "output_drug": "PROCOAGULANT",
+      "output_mb": 100,
+      "purity": 72,
+      "fe": 3500,
+      "ticks": 420,
+      "hazards": {
+        "fume": 1.0,
+        "flammable": true,
+        "pressure": 1,
+        "sealed": true
+      }
+    },
+    {
+      "machine": "FERMENTER",
+      "input_items": [
+        {
+          "item": "doomedmatu:gall_berry",
+          "count": 4
+        }
+      ],
+      "input_fluid": "minecraft:water",
+      "input_mb": 1000,
+      "output_fluid": "doomedmatu:mash",
+      "output_mb": 750,
+      "fe": 600,
+      "ticks": 520,
+      "hazards": {
+        "sealed": true,
+        "pressure": 1
+      }
+    },
+    {
+      "machine": "DRYING_OVEN",
+      "input_items": [
+        {
+          "item": "doomedmatu:spore_cap",
+          "count": 3
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:antibiotic_culture"
+        }
+      ],
+      "fe": 400,
+      "ticks": 160
+    },
+    {
+      "machine": "STILL",
+      "input_fluid": "doomedmatu:ethanol",
+      "input_mb": 300,
+      "input_items": [
+        {
+          "item": "minecraft:glass_bottle"
+        }
+      ],
+      "output_items": [
+        {
+          "item": "doomedmatu:alcohol"
+        }
+      ],
+      "fe": 1200,
+      "ticks": 260,
+      "hazards": {
+        "fume": 2.5,
+        "flammable": true,
+        "sealed": true,
+        "pressure": 1
+      }
+    }
+  ]
+}

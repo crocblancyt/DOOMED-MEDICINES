@@ -1,0 +1,48 @@
+{
+    "pills_bottle": {
+        "sounds": [
+        {
+            "name": "doomedextras:pills_bottle"
+        }
+        ],
+        "subtitle": "subtitle.doomedextras.pills_bottle"
+    },
+    "pills_tablet": {
+        "sounds": [
+        {
+            "name": "doomedextras:pills_tablet1",
+            "volume" : 0.85
+        },
+        {
+            "name": "doomedextras:pills_tablet2",
+            "volume" : 0.85
+        }
+        ],
+        "subtitle": "subtitle.doomedextras.pills_tablet"
+    },
+    "unzipping_kit": {
+        "sounds": [
+        {
+            "name": "doomedextras:unzipping1",
+            "volume" : 1.8
+        },
+        {
+            "name": "doomedextras:unzipping2",
+            "volume" : 1.8
+        },
+        {
+            "name": "doomedextras:unzipping3",
+            "volume" : 1.8
+        },
+        {
+            "name": "doomedextras:unzipping4",
+            "volume" : 1.8
+        },
+        {
+            "name": "doomedextras:unzipping5",
+            "volume" : 1.8
+        }
+        ],
+        "subtitle": "subtitle.doomedextras.unzipping"
+    }
+}

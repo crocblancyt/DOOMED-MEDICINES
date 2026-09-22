@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "tag":"doomedextras:brass_nugget",
+            "count": 2
+        },
+        {
+            "tag":"minecraft:red_dye",
+            "count": 1
+        }
+    ],
+    "result": {
+        "item": "doomedextras:shell",
+        "count": 1
+    }
+}

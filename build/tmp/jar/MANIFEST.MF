@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: doomedextras
+Specification-Vendor: crocblancyt, _darkxwolf18
+Specification-Version: 1
+Implementation-Title: Doomed-Extras
+Implementation-Version: 0.0.1
+Implementation-Vendor: crocblancyt, _darkxwolf18
+Implementation-Timestamp: 2026-09-20T13:53:29+0200
+MixinConfigs: doomedextras.mixins.json
+

@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "tag":"minecraft:lapis_lazuli",
+            "count": 2
+        },
+        {
+            "item":"minecraft:iron_nugget",
+            "count": 2
+        }
+    ],
+    "result": {
+        "item": "doomedextras:solarcell",
+        "count": 1
+    }
+}

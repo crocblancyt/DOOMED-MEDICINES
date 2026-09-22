@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "IGI",
+        "CSC",
+        "III"],
+    "key": {
+        "G":{
+            "tag":"minecraft:glass_pane"
+        },
+        "S": {
+            "item":"doomedextras:solarpanel"
+        },
+        "I":{
+            "tag":"minecraft:iron_ingot"
+        },
+        "C":{
+            "tag":"minecraft:copper_ingot"
+        }
+    },
+    "result": {
+        "item": "doomedextras:solar_panel_generator",
+        "count":1
+    }
+}

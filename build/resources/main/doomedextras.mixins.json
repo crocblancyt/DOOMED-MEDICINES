@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.croc.doomedextras.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "doomedextras.refmap.json",
+  "mixins": [
+    "MixinDrugService",
+    "MixinDrugType",
+    "DoomedFluidsAccessor",
+    "MixinTraderStock",
+    "MixinAcquisitionCatalog"
+  ],
+  "client": [],
+  "server": []
+}

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ID",
+        " R"
+    ],
+    "key": {
+        "D":{
+            "tag":"minecraft:red_dye"
+        },
+        "R": {
+            "item":"minecraft:redstone_dust"
+        },
+        "I":{
+            "tag":"minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "doomedextras:autoinjector",
+        "count":1
+    }
+}

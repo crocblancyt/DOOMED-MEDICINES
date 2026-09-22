@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "W W",
+        "WIW",
+        "W W"],
+    "key": {
+        "W": {
+            "item":"doomedextras:solarcell"
+        },
+        "I":{
+            "item":"minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "doomedextras:solarpanel",
+        "count":1
+    }
+}

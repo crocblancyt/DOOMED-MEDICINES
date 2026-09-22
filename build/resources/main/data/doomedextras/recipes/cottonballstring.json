@@ -1,0 +1,13 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "tag":"doomedextras:cottonball",
+            "count": 3
+        }
+    ],
+    "result": {
+        "item": "minecraft:string",
+        "count": 4
+    }
+}

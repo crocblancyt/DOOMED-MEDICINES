@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "tag":"doomedmatu:wet_wipes",
+            "count": 3
+        },
+        {
+            "tag":"doomedmatu:alcohol"
+        }
+    ],
+    "result": {
+        "item": "doomedextras:disinfectant_wipes",
+        "count": 3
+    }
+}

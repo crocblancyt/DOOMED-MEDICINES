@@ -1,0 +1,17 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":[
+        {
+            "tag":"doomedextras:autoinjector",
+            "count": 1
+        },
+        {
+            "tag":"doomedmatu:epinephrine_syringe",
+            "count": 1
+        }
+    ],
+    "result": {
+        "item": "doomedextras:epipen",
+        "count": 1
+    }
+}
