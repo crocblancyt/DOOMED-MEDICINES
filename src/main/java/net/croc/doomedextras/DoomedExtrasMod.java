@@ -1,5 +1,6 @@
 package net.croc.doomedextras;
 
+import net.mattlives.doomedmatu.block.HeatSource;
 import net.mattlives.doomedmatu.compat.jei.AcquisitionCatalog;
 import net.mattlives.doomedmatu.compat.jei.AcquisitionCategory;
 import net.minecraft.core.registries.Registries;
@@ -28,7 +29,7 @@ public class DoomedExtrasMod {
 
     public DoomedExtrasMod() {
         IEventBus modBus = FMLJavaModLoadingContext.get().getModEventBus();
-
+        HeatSource
         RegistryItems.register();
         RegistryBlocks.register();
         RegistryCreativeTab.register();
